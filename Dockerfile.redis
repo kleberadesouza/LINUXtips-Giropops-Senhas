@@ -1,0 +1,8 @@
+FROM  cgr.dev/chainguard/redis 
+
+
+LABEL version="7.2.4"
+
+EXPOSE 6379
+
+ENTRYPOINT [ "redis-server" ]
